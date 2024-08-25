@@ -39,7 +39,7 @@ body
 .cabecalho__menu__link
 {
     font-family: var(--fonte-secundaria);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -120,11 +120,11 @@ body
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente, se necessário */
-    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    width: 80%; /* Garante que o contêiner ocupe toda a largura disponível */
 }
 
 .apresentacao__fotodeperfil img {
-    width: 100%;
+    width: 80%;
     max-width: 400px;
     height: auto; 
     border-radius: 50%;
