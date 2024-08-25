@@ -121,7 +121,6 @@ body
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente, se necessário */
     width: 50%; /* Garante que o contêiner ocupe toda a largura disponível */
-    margin-top: 20px; /* Adiciona espaço acima do contêiner, se necessário */
 }
 
 .apresentacao__fotodeperfil img {
