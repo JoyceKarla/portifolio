@@ -120,11 +120,11 @@ body
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente, se necessário */
-    width: 60%; /* Garante que o contêiner ocupe toda a largura disponível */
+    width: 70%; /* Garante que o contêiner ocupe toda a largura disponível */
 }
 
 .apresentacao__fotodeperfil img {
-    width: 60%;
+    width: 70%;
     max-width: 100%;
     height: auto; 
     border-radius: 50%;
