@@ -116,14 +116,21 @@ body
     background-color: var(--cor-hover);
 }
 
-.apresentacao__fotodeperfil img 
-{
+.apresentacao__fotodeperfil {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente, se necessário */
+    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    margin-top: 20px; /* Adiciona espaço acima do contêiner, se necessário */
+}
+
+.apresentacao__fotodeperfil img {
     width: 100%;
     max-width: 400px;
     height: auto; 
     border-radius: 50%;
     object-fit: cover;
-    margin-left: 20px;
+    /* Remova margin-left para evitar deslocamento */
 }
 
 .rodape
@@ -160,9 +167,8 @@ body
         width: auto;
     }
 
-    .apresentacao__fotodeperfil
-    {
-        justify-content: center;
+    .apresentacao__fotodeperfil {
+        margin-top: 20px; /* Ajusta o espaço acima do contêiner, se necessário */
     }
 }
 
