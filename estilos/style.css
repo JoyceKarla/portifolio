@@ -120,17 +120,16 @@ body
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente, se necessário */
-    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    width: 50%; /* Garante que o contêiner ocupe toda a largura disponível */
     margin-top: 20px; /* Adiciona espaço acima do contêiner, se necessário */
 }
 
 .apresentacao__fotodeperfil img {
-    width: 100%;
+    width: 50%;
     max-width: 400px;
     height: auto; 
     border-radius: 50%;
     object-fit: cover;
-    /* Remova margin-left para evitar deslocamento */
 }
 
 .rodape
